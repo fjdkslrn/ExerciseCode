@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "LOGIN"; 
+}
+
+<h2>LOGIN</h2>
+
+<div>
+    <form action="/Login/LoginProcess" method="post">
+        @Html.Label("_loginId")
+        @Html.TextBox("_loginId")
+        <p></p>
+        @Html.Label("_password")
+        @Html.TextBox("_password")
+    </form>
+</div>
